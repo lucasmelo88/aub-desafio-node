@@ -21,6 +21,12 @@ npm install -g nightwatch
 Run to install Chrome and Selenium
 
 ```
+chmod +x ./utils/installChromeSelenium.sh
+```
+
+then...
+
+```
 ./utils/installChromeSelenium.sh
 ```
 
