@@ -1,4 +1,4 @@
-# geo-desafio
+# aubay-desafio
 
 Website testing automation using Nightwatch.js
 
@@ -38,8 +38,10 @@ npm install
 
 ### Environment Variables
 
+```
 export SELENIUM_PATH=/usr/local/bin
 export CHROMEDRIVER_PATH=/usr/local/bin
+```
 
 ## Files and Folders
 
@@ -47,6 +49,8 @@ export CHROMEDRIVER_PATH=/usr/local/bin
 - custom commands: commands
 - Environment execution (default chrome, firefox): nightwatch.json
 - Global Variables: globals.js
+
+## Running tests
 
 - Chrome
 
