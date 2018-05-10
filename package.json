@@ -1,0 +1,12 @@
+{
+  "name": "aub-desafio-node",
+  "description": "Automated tests for an Aubay website functionality",
+  "private": true,
+  "dependencies": {
+    "nightwatch": "^0.9.21",
+    "tmp": "0.0.33"
+  },
+  "scripts": {
+    "test": "NODE_ENV=dev ./node_modules/.bin/nightwatch"
+  }
+}

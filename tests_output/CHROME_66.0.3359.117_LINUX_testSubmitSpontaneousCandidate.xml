@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="testSubmitSpontaneousCandidate"
+    errors="0" failures="0" hostname="" id="" package="testSubmitSpontaneousCandidate" skipped="0"
+    tests="6" time="85.57" timestamp="Thu, 10 May 2018 11:35:02 GMT">
+  
+    <testcase name="Fill all fields to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="17.04" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Do not fill name field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="14.64" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Do not fill phone number field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="14.40" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Do not fill email field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="12.75" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Do not fill technologies field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="14.37" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Do not fill linkedin field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="12.38" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

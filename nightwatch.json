@@ -1,0 +1,92 @@
+{
+    "nightwatch": {
+      "version": "^0.9.21"
+    },
+    "src_folders": [
+      "./tests"
+    ],
+    "page_objects_path" :"./pages",
+    "custom_commands_path": [
+      "./commands"
+    ],
+    "globals_path": "./globals.js",
+    "selenium": {
+      "start_process": true,
+      "server_path": "${SELENIUM_PATH}/selenium-server-standalone.jar",
+      "log_path": "logs",
+      "host": "127.0.0.1",
+      "port": 4444,
+      "cli_args": {
+        "webdriver.chrome.whitelistedIps":"localhost",
+        "webdriver.chrome.driver": "${CHROMEDRIVER_PATH}/chromedriver"
+      }
+    },
+    "live_output" : false,
+    "parallel_process_delay" : 10000,
+    "test_settings": {
+      "default": {
+        "launch_url": "http://localhost:5000",
+        "selenium_host": "127.0.0.1",
+        "selenium_port": 4444,
+        "pathname": "/wd/hub",
+        "silent": true,
+        "disable_colors": false,
+        "firefox_profile": false,
+        "ie_driver": "",
+        "screenshots": {
+          "enabled": false,
+          "path": "./reports"
+        },
+        "desiredCapabilities": {
+          "browserName": "chrome",
+          "screenResolution": "1024x768",
+          "javascriptEnabled": true,
+          "acceptSslCerts": true,
+          "loggingPrefs": {
+            "browser": "ALL"
+          },
+          "chromeOptions": {
+              "args": ["--no-sandbox", "--disable-infobars",
+                "--disable-popup-blocking"]
+          },
+          "envName" : "default"
+        },
+        "end_session_on_fail": false,
+        "skip_testcases_on_fail": false,
+        "exclude": "./unittests/*",
+        "test_workers" : {
+          "enabled" : false
+        }
+      },
+      "firefox": {
+        "launch_url": "http://localhost:5000",
+        "selenium_host": "127.0.0.1",
+        "selenium_port": 4444,
+        "pathname": "/wd/hub",
+        "silent": true,
+        "disable_colors": false,
+        "firefox_profile": false,
+        "ie_driver": "",
+        "screenshots": {
+          "enabled": false,
+          "path": "./screenshots"
+        },
+        "desiredCapabilities": {
+          "browserName": "firefox",
+          "screenResolution": "1024x768",
+          "javascriptEnabled": true,
+          "acceptSslCerts": true,
+          "loggingPrefs": {
+            "browser": "ALL"
+          },
+          "envName" : "default"
+        },
+        "cli_args" : {
+          "webdriver.firefox.profile" : "nightwatch",
+          "webdriver.gecko.driver": "${GECKODRIVER_PATH}/geckodriver"
+        },
+        "exclude": "./unittests/*"
+      }
+    }
+  }
+  

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="2">
+
+  <testsuite name="testSubmitSpontaneousCandidate"
+    errors="2" failures="0" hostname="" id="" package="testSubmitSpontaneousCandidate" skipped="0"
+    tests="2" time="0.01900" timestamp="Wed, 09 May 2018 23:31:18 GMT">
+  
+    <testcase name="Fill all fields to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="0.01100" assertions="0">
+    </testcase>
+  
+    <testcase name="Do not fill the name field to Spontaneous candidate and submit form" classname="testSubmitSpontaneousCandidate" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test Submit Spontaneous Candidate / Fill all fields to Spontaneous candidate and submit form]:
+
+  ReferenceError: main is not defined
+    at Object.Fill all fields to Spontaneous candidate and submit form (/home/lmelo/workspace/aub-desafio-node/tests/testSubmitSpontaneousCandidate.js:15:3)
+    at Module.call (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+  Error while running [Test Submit Spontaneous Candidate / Do not fill the name field to Spontaneous candidate and submit form]:
+
+  ReferenceError: main is not defined
+    at Object.Do not fill the name field to Spontaneous candidate and submit form (/home/lmelo/workspace/aub-desafio-node/tests/testSubmitSpontaneousCandidate.js:34:3)
+    at Module.call (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/home/lmelo/.nvm/versions/node/v8.4.0/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
